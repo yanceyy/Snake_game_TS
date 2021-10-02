@@ -8,6 +8,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
+    environment: {
+      arrowFunction: false,
+      const: false,
+    },
   },
   module: {
     rules: [

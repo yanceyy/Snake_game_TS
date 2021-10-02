@@ -1,0 +1,15 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "./dist",
+        "removeComments": true,
+        "noEmitOnError": true,
+        "strict": true,
+    }
+}
